@@ -1,4 +1,5 @@
 #!/bin/bash
+# legacy style of gclog. we need to explicitly use G1GC for jdk8u.
 javac Test.java
 
 H=$1
